@@ -1,0 +1,32 @@
+Collecting graphene-django
+  Downloading graphene_django-2.15.0-py2.py3-none-any.whl (83 kB)
+Collecting graphql-core<3,>=2.1.0
+  Downloading graphql_core-2.3.2-py2.py3-none-any.whl (252 kB)
+Requirement already satisfied: Django>=1.11 in c:\users\ishan ss\anaconda3\envs\graphqldj\lib\site-packages (from graphene-django) (3.2.4)
+Collecting singledispatch>=3.4.0.3
+  Downloading singledispatch-3.6.2-py2.py3-none-any.whl (8.2 kB)
+Collecting six>=1.10.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting text-unidecode
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting promise>=2.1
+  Using cached promise-2.3.tar.gz (19 kB)
+Collecting graphene<3,>=2.1.7
+  Downloading graphene-2.1.8-py2.py3-none-any.whl (107 kB)
+Requirement already satisfied: pytz in c:\users\ishan ss\anaconda3\envs\graphqldj\lib\site-packages (from Django>=1.11->graphene-django) (2021.1)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\users\ishan ss\anaconda3\envs\graphqldj\lib\site-packages (from Django>=1.11->graphene-django) (0.4.1)
+Requirement already satisfied: asgiref<4,>=3.3.2 in c:\users\ishan ss\anaconda3\envs\graphqldj\lib\site-packages (from Django>=1.11->graphene-django) (3.3.4)
+Collecting graphql-relay<3,>=2
+  Downloading graphql_relay-2.0.1-py3-none-any.whl (20 kB)
+Collecting aniso8601<=7,>=3
+  Downloading aniso8601-7.0.0-py2.py3-none-any.whl (42 kB)
+Collecting rx<2,>=1.6
+  Downloading Rx-1.6.1-py2.py3-none-any.whl (179 kB)
+Building wheels for collected packages: promise
+  Building wheel for promise (setup.py): started
+  Building wheel for promise (setup.py): finished with status 'done'
+  Created wheel for promise: filename=promise-2.3-py3-none-any.whl size=21494 sha256=ace06cfd49a9ac699098f17fc9d946a4d322ba7aa983667db676daeecd258bae
+  Stored in directory: c:\users\ishan ss\appdata\local\pip\cache\wheels\54\aa\01\724885182f93150035a2a91bce34a12877e8067a97baaf5dc8
+Successfully built promise
+Installing collected packages: six, rx, promise, graphql-core, graphql-relay, aniso8601, text-unidecode, singledispatch, graphene, graphene-django
+Successfully installed aniso8601-7.0.0 graphene-2.1.8 graphene-django-2.15.0 graphql-core-2.3.2 graphql-relay-2.0.1 promise-2.3 rx-1.6.1 singledispatch-3.6.2 six-1.16.0 text-unidecode-1.3
