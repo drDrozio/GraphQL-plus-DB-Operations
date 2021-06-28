@@ -71,10 +71,6 @@ schema =  graphene.Schema(query=Query, mutation=Mutation)
 #   }
 #   answers(id:$id)
 #   {
-#     question
-#     {
-#       title
-#     }
 #     answerText
 #   }
 # }

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Category, Quizzes, Question, Answer
 from django.http import HttpResponse
 import datetime
+from blue.models import Blue
 
 # Create your views here.
 def databaseQueries(request):
@@ -12,5 +13,7 @@ def databaseQueries(request):
 	categoryID = Category.objects.filter(name='Education')
 	categoryID = categoryID.values_list('pk',flat=True)
 
-	context={'quizzes':sportsQuizzes , 'categoryID':categoryID}
+	colors = Blue.objects.using('blue_db').all()
+
+	context={'quizzes':sportsQuizzes , 'categoryID':categoryID , 'colors':colors}
 	return render(request,'index.html',context)
