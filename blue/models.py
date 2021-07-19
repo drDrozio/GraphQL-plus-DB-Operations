@@ -22,3 +22,16 @@ class Framework(models.Model):
 
 	def __str__(self):
 		return self.name
+
+class Movie(models.Model):
+	title = models.CharField(max_length=25)
+
+	def __str__(self):
+		return self.title
+
+class Character(models.Model):
+	name = models.CharField(max_length=20)
+	movies = models.ManyToManyField(Movie)
+
+	def __str__(self):
+		return self.name
